@@ -1,0 +1,230 @@
+   {% extends 'base.html' %}
+   {% load static %}
+
+  {% block content %}
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="col-md-12">
+      <img src="{% static 'images/s1.jpg' %}" class="img-responsive" alt="Background image">
+    </div>
+      <div class="header-content">
+        <h1>I am a </h1>
+        <p>Software developer, UI/UX Designer and photographer</p>
+
+        <ul class="list-unstyled list-social">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="{% static 'images/img1.jpg' %}" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">I'm a frontend developer based in Lagos, who loves to create exciting and unique user experience,content, simple & unique design. </p>
+            <p class="separator">I am a of lover family and fun. With the heart of a child and live life on my own terms.</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section services -->
+  <div id="services">
+    <div class="container">
+
+        <div class="services-carousel owl-theme">
+
+          <div class="services-block">
+
+            <i class="ion-ios-browsers-outline"></i>
+            <span>UI/UX DESIGNER</span>
+            <p class="separator">I enjoy creating meaningful and life impactful project. Do you want to preserve the memory you loved one?
+            I give you a unique way to do that on web.</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-color-wand-outline"></i>
+            <span>FRONTEND DEVELOPER</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-analytics-outline"></i>
+            <span>WEB DESIGN</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-camera-outline"></i>
+            <span>PHOTOGRAPHY</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+  <!-- end section services -->
+
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>My Portfolio</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">all</li>
+              <li class="filter" data-filter=".uikits">UI Design</li>
+              <li class="filter" data-filter=".webdesign">web design</li>
+              <li class="filter" data-filter=".photography">photography</li>
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+              <a class="popup-img" href="{% static 'images/portfolio/B1.jpg' %}">
+                <img src="{% static 'images/portfolio/B1.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
+              <a class="popup-img" href="{% static 'images/portfolio/B2.jpg' %}">
+                <img src="{% static 'images/portfolio/B2.jpg' %}"  alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
+              <a class="popup-img" href="{% static 'images/portfolio/B3.jpg' %}">
+                <img src="{% static 'images/portfolio/B3.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
+              <a class="popup-img" href="{% static 'images/portfolio/B4.jpg' %}">
+                <img src="{% static 'images/shecodes20.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography">
+              <a class="popup-img" href="{% static 'images/portfolio/B5.jpg' %}">
+                <img src="{% static 'images/shecodes21.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+              <a class="popup-img" href="{% static 'images/portfolio/B6.jpg' %}">
+                <img src="{% static 'images/portfolio/B6.jpg' %}" alt="img">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start section journal -->
+  <div id="journal" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>journal</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="journal-block">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="blog.html"><img src="{% static 'images/P1.jpg' %}" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a href="blog.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
+                <p class="separator">To an English person, it will seem like simplified English
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="blog.html"><img src="{% static 'images/P3.jpg' %}" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a href="blog.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
+                <p class="separator">To an English person, it will seem like simplified English
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section journal -->
+
+
+    {% endblock %}
+
+
